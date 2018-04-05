@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DASH BOARD"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <com.mankind.application.nation.simplegridhome.SimpleHomeGrid
+        android:layout_width="match_parent"
+        app:separatorWidth="10dp"
+        android:layout_margin="15dp"
+        app:numColumns="2"
+        app:numRows="5"
+        app:isOutlineBoxed="false"
+        app:separatorColor="@android:color/transparent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/holo_orange_dark"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="#f5f55b"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_margin="10dp"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="#ff94f8"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="#94d152"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="#6bafea"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_margin="0dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="#6d3bc4"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/holo_purple"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_red_dark"/>
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:background="@android:color/holo_green_dark"/>
+
+    </com.mankind.application.nation.simplegridhome.SimpleHomeGrid>
+</ScrollView>
+</LinearLayout>

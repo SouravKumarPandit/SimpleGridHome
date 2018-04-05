@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleHomeGrid">
+        <attr name="separatorWidth" format="dimension" />
+        <attr name="separatorColor" format="color" />
+        <attr name="numColumns" format="integer" />
+        <attr name="numRows" format="integer" />
+        <attr name="lineSeparate" format="float" />
+        <attr name="isOutlineBoxed" format="boolean" />
+        <attr name="isTabmatter" format="boolean" />
+
+    </declare-styleable>
+</resources>
